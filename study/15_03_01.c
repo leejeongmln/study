@@ -8,11 +8,9 @@ void main() {
 	char *p = data; // data = &data[0]
 
 	for (i = 0; i < 5; i++) {
-		result = result + *p;	// 1 ´õÇÏ°í				±× ´ÙÀ½ 2			±× ´ÙÀ½ 3			±× ´ÙÀ½ 4 ...
-		p++;	// p Áõ°¡
+		result = result + *p;	// 1 ë”í•˜ê³ 				ê·¸ ë‹¤ìŒ 2			ê·¸ ë‹¤ìŒ 3			ê·¸ ë‹¤ìŒ 4 ...
+		p++;	// p ì¦ê°€
 	}
 
-	printf("data ¹è¿­ÀÇ °¢ ¿ä¼ÒÀÇ ÇÕÀº %d ÀÔ´Ï´Ù.\n", result);
-
-	printf("hello");
+	printf("data ë°°ì—´ì˜ ê° ìš”ì†Œì˜ í•©ì€ %d ì…ë‹ˆë‹¤.\n", result);
 }
