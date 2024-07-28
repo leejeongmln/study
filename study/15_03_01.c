@@ -13,4 +13,6 @@ void main() {
 	}
 
 	printf("data 배열의 각 요소의 합은 %d 입니다.\n", result);
+
+	printf("hello");
 }
